@@ -1,0 +1,31 @@
+Source: cli53
+Maintainer: Barnaby Gray <barnaby@pickle.me.uk>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-cli53
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Command line script to administer the Amazon Route 53 DNS se
+ [![Build status](https://secure.travis-ci.org/barnybug/cli53.png?branch=master)](https://secure.travis-ci.org/barnybug/cli53)
+ .
+ cli53 - Command line script to administer the Amazon Route 53 DNS service
+ =========================================================================
+ .
+ .
+ Introduction
+ ------------
+ cli53 provides import and export from BIND format and simple command line management of
+ Route 53 domains.
+ .
+ Features:
+ .
+ - create hosted zones
+ .
+ - delete hosted zones
+ .
+ - list hosted zones
+ .
+ - import from BIND format
