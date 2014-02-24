@@ -1,0 +1,4 @@
+*.pyc
+dist
+MANIFEST
+cli53.egg-info
