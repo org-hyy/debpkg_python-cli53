@@ -7,7 +7,7 @@ Standards-Version: 3.9.1
 
 Package: python-cli53
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, python-boto (>= 2.25)
 Description: Command line script to administer the Amazon Route 53 DNS se
  [![Build status](https://secure.travis-ci.org/barnybug/cli53.png?branch=master)](https://secure.travis-ci.org/barnybug/cli53)
  .
