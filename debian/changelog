@@ -1,3 +1,10 @@
+cli53 (0.4.0-2) precise; urgency=low
+
+  * Imported Debian patch 0.4.0-1
+  * Bump python-boto version requirements, to allow cli53 to operate with IAM instance profiles
+
+ -- Benoit Dubertret <benoit.dubertret@iscool-e.com>  Mon, 24 Mar 2014 11:36:05 +0100
+
 cli53 (0.4.0-1) precise; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git
